@@ -201,3 +201,11 @@ body{
 .btn-box a:hover::before{
     width: 100%;
 }
+
+.home-sci{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}

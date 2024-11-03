@@ -198,3 +198,6 @@ body{
     transition: 0.5s;
 }
 
+.btn-box a:hover::before{
+    width: 100%;
+}

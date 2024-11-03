@@ -42,3 +42,12 @@ body{
     animation: showRight 1s ease forwards;
     animation-delay: 0.4s;
 }
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.4s;
+}

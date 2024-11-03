@@ -71,3 +71,10 @@ body{
 .home-content{
     max-width: 600px;
 }
+
+.home-content h1{
+    position: relative;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}

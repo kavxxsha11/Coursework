@@ -127,3 +127,11 @@ body{
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
 }
+
+.home-content .btn-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}

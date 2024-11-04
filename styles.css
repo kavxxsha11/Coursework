@@ -16,7 +16,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: rgb(0, 0, 0, 0.8);
+    background:#081b29;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;

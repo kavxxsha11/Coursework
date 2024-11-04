@@ -162,6 +162,19 @@ body{
     border: 2px solid #ffffff;
 }
 
+.btn-2{
+    padding: 15px 28px;
+    background-color: #00abf0;
+    color: #081b29;
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
 .home-content .btn-box::before{
     content: '';
     position: absolute;

@@ -604,15 +604,17 @@ body{
     }
 }
 
-@media screen and (max-width:768px){
+@media (max-width:768px){
     .home-content h1{
         font-size: 36px;
         font-weight: 700;
         line-height: 50px;
     }
 
-    navbar a.right,
-    navbar a{float: none;}
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
 
     .about{
         flex-direction: column;

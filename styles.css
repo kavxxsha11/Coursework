@@ -59,7 +59,8 @@ body{
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    transition: 0.4s;
+    transition: 0.4s ease;
+    border-bottom: 3px solid transparent;
 }
 
 .navbar a:hover,

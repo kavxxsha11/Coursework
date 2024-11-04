@@ -293,3 +293,9 @@ body{
     box-shadow: 2px 2px 50px #00abf0;
     transition: 1s ease-in-out;
 }
+
+.slot img{
+    width: 450px;
+    height: 550px;
+    transition: 0.3s ease-in-out;
+}

@@ -578,6 +578,10 @@ body{
     transition: 0.3s ease;
 }
 
+.footer ul li a:hover{
+    border-bottom: 3px solid #00abf0;
+}
+
 @keyframes showRight {
     100% {
         width: 0;

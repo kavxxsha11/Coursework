@@ -451,18 +451,7 @@ body{
     transition: 0.3s ease-in-out;
 }
 
-::-webkit-scrollbar{
-    width: 15px;
-}
 
-::-webkit-scrollbar-thumb{
-    background-color: #00abf0;
-}
-
-::-webkit-scrollbar-track{
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 50px;
-}
 
 .about{
     display: flex;

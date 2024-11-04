@@ -389,7 +389,7 @@ body{
 }
 
 .about-content p{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     margin: 2em 0 3em;
 }

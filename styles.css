@@ -248,38 +248,6 @@ body{
 }
 
 
-.btn-box a:hover{
-    color: #00abf0;
-}
-
-.btn-box a:nth-child(2){
-    background: transparent;
-    color: #00abf0;
-}
-
-.btn-box a:nth-child(2):hover{
-    color: #081b29;
-}
-
-.btn-box a:nth-child(2)::before{
-    background: #00abf0;
-}
-
-.btn-box a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #081b29;
-    z-index: -1;
-    transition: 0.5s;
-}
-
-.btn-box a:hover::before{
-    width: 100%;
-}
 
 .home-sci{
     position: absolute;

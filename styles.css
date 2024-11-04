@@ -256,3 +256,7 @@ body{
     z-index: -1;
     transition: 0.5s;
 }
+
+.home-sci a:hover::before{
+    width: 100%;
+}

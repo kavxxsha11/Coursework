@@ -372,8 +372,8 @@ body{
 .about-img img{
     position: relative;
     width: 550px;
-    box-shadow: 0 0 25px #00abf0,
-                0 0 50px #00abf0;
+    box-shadow: 0 0 25px #081b29,
+                0 0 50px #081b29;
     border-radius: 50%;
 }
 

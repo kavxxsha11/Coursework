@@ -542,6 +542,21 @@ body{
     color: white;
 }
 
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid #00abf0;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px #00abf0, 0 0 10px #00abf0;
+    transition: 0.3s ease;
+}
+
 @keyframes showRight {
     100% {
         width: 0;

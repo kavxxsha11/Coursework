@@ -1,3 +1,4 @@
+/* Added general styles */
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +6,13 @@
     font-family: 'Popins',sans-serif;
 }
 
+/* Added body styles */
 body{
     background: #081b29;
     color: #ededed;
 }
 
+/* Added header styles */
 .header{
     position: fixed;
     top: 0;
@@ -24,6 +27,7 @@ body{
     z-index: 100;
 }
 
+/* Added logo styles */
 .logo{
     position: relative;
     font-size: 25px;
@@ -33,6 +37,7 @@ body{
     transition: 0.3s ease;
 }
 
+/* Added hover effect to logo */
 .logo:hover{
     color: #ffffff;
     text-shadow:0 0 25px #dee821,
@@ -40,6 +45,7 @@ body{
     transform: scale(1.1);
 }
 
+/* Added pseudo element to logo */
 .logo::before{
     content: '';
     position: absolute;
@@ -52,6 +58,7 @@ body{
     animation-delay: 0.4s;
 }
 
+/* Added styles to anchor elements in navbar */
 .navbar a{
 
     font-size: 18px;
@@ -63,12 +70,14 @@ body{
     border-bottom: 3px solid transparent;
 }
 
+/* Added hover effect and active effect to navbar */
 .navbar a:hover,
 .navbar a.active {
     color:#00abf0 ;
     border-bottom: 3px solid #00abf0;
 }
 
+/* Home class */
 .home{
     height: 100vh;
     display: flex;
@@ -89,6 +98,7 @@ body{
     font-size: 52px;
 }
 
+/* Added pseudo element to .home-content h2 class */
 .home-content h2::before{
     content: '';
     position: absolute;
@@ -107,6 +117,7 @@ body{
     text-align: unset;
 }
 
+/* Added pseudo element to .home-content h3 class */
 .home-content h3::before{
     content: '';
     position: absolute;
@@ -125,6 +136,7 @@ body{
     margin: 2em 0 3em;
 }
 
+/* Added pseudo element to .home-content p class */
 .home-content p::before{
     content: '';
     position: absolute;
@@ -143,6 +155,7 @@ body{
     gap: 2em;
 }
 
+/* button 1 in home-content */
 .home-content .btn-1{
     padding: 15px 28px;
     background-color: #081b29;
@@ -156,12 +169,14 @@ body{
     cursor: pointer;
 }
 
+/* Add hover effect */
 .home-content .btn-1:hover{
     background-color:#081b29;
     color: #00abf0;
     border: 2px solid #00abf0;
 }
 
+/* Added pseudo elements */
 .btn-box .btn-1::before{
     content: '';
     position: absolute;
@@ -175,6 +190,7 @@ body{
     z-index: 2;
 }
 
+/* button 1 in button-box */
 .btn-box .btn-1{
     position: relative;
     display: inline-flex;
@@ -195,6 +211,7 @@ body{
     transition: 0.5s;
 }
 
+/* button 2 in about-content */
 .about-content .btn-2{
     padding: 15px 28px;
     background-color: #00abf0;
@@ -208,12 +225,14 @@ body{
     cursor: pointer;
 }
 
+/* Added hover effect */
 .about-content .btn-2:hover{
     background-color: #081b29;
     color: #00abf0;
     border: 2px solid #00abf0;
 }
 
+/* Added pseudo elements */
 .btn-2::before{
     content: '';
     position: absolute;
@@ -227,6 +246,7 @@ body{
     z-index: 2;
 }
 
+/* button 2 */
 .btn-2{
     position: relative;
     display: inline-flex;
@@ -247,6 +267,7 @@ body{
     transition: 0.5s;
 }
 
+/* button 1 in contact-form */
 .contact-form .btn-1{
     padding: 15px 28px;
     background-color: #00abf0;
@@ -260,12 +281,14 @@ body{
     cursor: pointer;
 }
 
+/* Added hover effect */
 .contact-form .btn-1:hover{
     background-color: #081b29;
     color: #00abf0;
     border: 2px solid #00abf0;
 }
 
+/* Added pseudo elements */
 .btn-1::before{
     content: '';
     position: absolute;
@@ -279,6 +302,7 @@ body{
     z-index: 2;
 }
 
+/* button 1 */
 .btn-1{
     position: relative;
     display: inline-flex;
@@ -299,6 +323,7 @@ body{
     transition: 0.5s;
 }
 
+/* Added slot */
 .slot{
     margin-top: 50px;
     margin-right: 150px;
@@ -306,18 +331,21 @@ body{
     justify-content: flex-end;
 }
 
+/* Added hover effect */
 .slot :hover{
     cursor: pointer;
     transform: scale(1.1);
     transition: 1s ease-in-out;
 }
 
+/* Added hover effect to image */
 .slot:hover img{
     transform: scale(1.1);
     box-shadow: 2px 2px 50px #00abf0;
     transition: 1s ease-in-out;
 }
 
+/* Added child combinator */
 .slot > img{
     width: 450px;
     position: relative;
@@ -326,6 +354,7 @@ body{
                 0 0 50px #00abf0
 }
 
+/* about */
 .about{
     display: flex;
     justify-content: center;
@@ -335,6 +364,7 @@ body{
     background:#081b29;
 }
 
+/* Added child combinator */
 .about-img > img{
     position: relative;
     width: 550px;
@@ -343,23 +373,27 @@ body{
     border-radius: 50%;
 }
 
+/* h2 in about-content */
 .about-content h2{
     text-align: left;
     color: white;
     font-size: 52px;
 }
 
+/* h3 in about-content */
 .about-content h3{
     font-size: 62px;
     color: #00abf0;
 }
 
+/* p in about-content */
 .about-content p{
     color: white;
     font-size: 20px;
     margin: 2em 0 3em;
 }
 
+/* blog-container */
 .blog-post .blog-container{
     display:flex;
     justify-content: center;
@@ -387,6 +421,7 @@ body{
     margin-top: 2em;
 }
 
+/* h2 in contact-form */
 .contact-form h2{
     text-align: center;
     margin-top: 3em;
@@ -394,6 +429,7 @@ body{
     font-size: 36px;
 }
 
+/* contact-form */
 .contact-form form{
     max-width: 50em;
     margin: 1rem auto;
@@ -407,6 +443,7 @@ body{
     flex-wrap: wrap;
 }
 
+/* Added attribute selectors */
 .contact-form form .input-box input[type="text"],
 .contact-form form .input-box input[type="number"],
 .contact-form form .input-box input[type="email"],
@@ -422,6 +459,7 @@ body{
     resize: none;
 }
 
+/* Attribute selectors */
 .contact-form form .input-box input[type="text"]:focus,
 .contact-form form .input-box input[type="number"]:focus,
 .contact-form form .input-box input[type="email"]:focus,
@@ -430,6 +468,7 @@ body{
     outline: none;
 }
 
+/* Footer */
 .footer{
     position: relative;
     bottom: 0;
@@ -438,6 +477,7 @@ body{
     background-color: black;
 }
 
+/* Social media icons */
 .footer .social{
     text-align: center;
     padding-bottom: 25px;
@@ -459,6 +499,7 @@ body{
     transition: 0.3s ease;
 }
 
+/* Added hover effect */
 .footer .social a:hover{
     transform: scale(1.2)translateY(-10px);
     color: #00abf0;
@@ -498,12 +539,14 @@ body{
     color: white;
 }
 
+/* Added animation */
 @keyframes showRight {
     100% {
         width: 0;
     }
 }
 
+/* Added media-queries */
 @media (max-width:768px){
     .home-content h2{
         font-size: 25px;

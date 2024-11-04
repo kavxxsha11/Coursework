@@ -579,12 +579,20 @@ body{
 }
 
 .footer ul li a:hover{
+    color: #00abf0;
     border-bottom: 3px solid #00abf0;
 }
 
 .footer ul li{
     display: inline-block;
     padding: 0 15px;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
 }
 
 @keyframes showRight {

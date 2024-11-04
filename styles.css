@@ -16,7 +16,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background:#081b29;
+    background:#000000;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -541,6 +541,12 @@ body{
         line-height: 50px;
     }
 
+    .home-content h3{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
     .navbar a {
         font-size: 16px;
         margin-left: 20px;
@@ -556,9 +562,17 @@ body{
         align-items: center;
     }
 
-    .container{
-        width: 90%;
-        margin-right: 0;
-        margin-left: 0;
+    .logo{
+        font-size: 17px;
+    }
+
+    .slot img{
+        width: 76%;
+        height: 76%;
+    }
+
+    .slot{
+        width: auto;
+        height: auto;
     }
 }

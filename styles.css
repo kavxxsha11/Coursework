@@ -73,21 +73,23 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 20px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 .home-content{
-    max-width: 800px;
+    max-width: 500px;
+    margin-left: 100px;
 }
 
-.home-content h1{
-    position: relative;
-    font-size: 62px;
-    font-weight: 700;
-    line-height: 1.2;
+.home-content h2{
+    text-align: unset;
+    color: white;
+    font-size: 52px;
 }
 
-.home-content h1::before{
+.home-content h2::before{
     content: '';
     position: absolute;
     top:0;
@@ -100,10 +102,9 @@ body{
 }
 
 .home-content h3{
-    position: relative;
-    font-size: 42px;
-    font-weight: 700;
+    font-size: 62px;
     color: #00abf0;
+    text-align: unset;
 }
 
 .home-content h3::before{
@@ -119,10 +120,9 @@ body{
 }
 
 .home-content p{
-    position: relative;
     color: white;
-    font-size: 18px;
-    margin: 25px 0 30px;
+    font-size: 20px;
+    margin: 2em 0 3em;
 }
 
 .home-content p::before{
@@ -352,12 +352,10 @@ body{
 }
 
 .slot{
-    width: auto;
-    height: auto;
-    margin-top: 50px;
-    margin-left: 0px;
-    margin-right: -580px;
+    margin-top: 60px;
+    margin-right: 100px;
     display: flex;
+    justify-content: flex-end;
 }
 
 .slot :hover{
@@ -373,7 +371,7 @@ body{
 }
 
 .slot img{
-    width: 550px;
+    width: 450px;
     position: relative;
     transition: 0.3s ease-in-out;
     box-shadow: 0 0 25px #00abf0,
@@ -521,16 +519,23 @@ body{
 }
 
 @media (max-width:768px){
-    .home-content h1{
-        font-size: 36px;
+    .home-content h2{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align:left;
+    }
+
+    .home-content h3{
+        font-size: 22px;
+        text-align: left;
         font-weight: 700;
         line-height: 50px;
     }
 
-    .home-content h3{
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 50px;
+    .home-content p{
+        text-align: left;
+        font-size: 20px;
     }
 
     .navbar a {
@@ -543,22 +548,33 @@ body{
     }
 
     .about-img img{
-        width:76% ;
-        height: 70%;
+        max-width: 100%;
         align-items: center;
+        margin: 20px 0;
+        margin-top: 70px;
+        width: 300px;
     }
 
     .logo{
         font-size: 17px;
     }
 
+    .home{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     .slot img{
-        width: 76%;
-        height: 76%;
+        width: 300px;
     }
 
     .slot{
-        width: auto;
-        height: auto;
+        margin: 20px 0;
+        margin-top: 70px;
+    }
+
+    .home-content{
+        max-width: 100%;
     }
 }

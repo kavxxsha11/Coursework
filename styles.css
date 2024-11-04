@@ -550,6 +550,12 @@ body{
         flex-direction: column;
     }
 
+    .about-img img{
+        width:76% ;
+        height: 70%;
+        align-items: center;
+    }
+
     .container{
         width: 90%;
         margin-right: 0;

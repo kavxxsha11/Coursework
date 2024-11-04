@@ -299,3 +299,9 @@ body{
     height: 550px;
     transition: 0.3s ease-in-out;
 }
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}

@@ -582,4 +582,10 @@ body{
     .home-content{
         max-width: 100%;
     }
+
+    .blog-post .blog-container{
+        margin: 20px 0;
+        margin-top: 70px;
+        align-items: center;
+    }
 }

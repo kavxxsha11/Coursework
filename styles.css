@@ -121,8 +121,8 @@ body{
 .home-content p{
     position: relative;
     color: white;
-    font-size: 20px;
-    margin: 2em 0 3em;
+    font-size: 18px;
+    margin: 25px 0 30px;
 }
 
 .home-content p::before{

@@ -346,6 +346,13 @@ body{
     margin: 2em 0 3em;
 }
 
+.contact-form h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+
 @keyframes showRight {
     100% {
         width: 0;

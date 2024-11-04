@@ -264,3 +264,12 @@ body{
 #card{
     margin: auto;
 }
+
+.container{
+    width: 75%;
+    padding: 10px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}

@@ -181,7 +181,7 @@ body{
     border: 2px solid #00abf0;
 }
 
-.home-content .btn-1::before{
+.btn-box .btn-1::before{
     content: '';
     position: absolute;
     top:0;
@@ -194,7 +194,7 @@ body{
     z-index: 2;
 }
 
-.home-content .btn-2::before{
+.btn-box .btn-2::before{
     content: '';
     position: absolute;
     top:0;
@@ -203,11 +203,11 @@ body{
     height: 100%;
     background:#081b29;
     animation: showRight 1s ease forwards;
-    animation-delay: 2s;
+    animation-delay: 2.4s;
     z-index: 2;
 }
 
-.btn-box a{
+.btn-box .btn-1{
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -215,7 +215,7 @@ body{
     width: 150px;
     height: 100%;
     background: #00abf0;
-    border: 2px solid #00abf0;
+    border: 2px solid #081b29;
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
@@ -226,6 +226,27 @@ body{
     overflow: hidden;
     transition: 0.5s;
 }
+
+.btn-box .btn-2{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #081b29;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
 
 .btn-box a:hover{
     color: #00abf0;

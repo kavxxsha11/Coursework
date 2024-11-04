@@ -166,13 +166,19 @@ body{
     padding: 15px 28px;
     background-color: #00abf0;
     color: #081b29;
-    border: 2px solid;
+    border: 2px solid #ffffff;
     border-radius: 8px;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
+}
+
+.btn-2:hover{
+    background-color: #081b29;
+    color: #00abf0;
+    border: 2px solid #00abf0;
 }
 
 .home-content .btn-box::before{

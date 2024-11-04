@@ -360,6 +360,33 @@ body{
     margin: 2em 0 3em;
 }
 
+.blog-post .blog-container{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px 20px;
+    margin-bottom: 5%;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00abf0;
+    max-width: 1500px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.blog-post .blog-container h2{
+    text-align: left;
+    color:#00abf0;
+    font-size: 52px;
+}
+
+.blog-post .blog-container p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+
 .contact-form h2{
     text-align: center;
     margin-top: 3em;

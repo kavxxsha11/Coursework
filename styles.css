@@ -281,3 +281,9 @@ body{
     margin-left: 180px;
     margin-right: -100px;
 }
+
+.slot :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}

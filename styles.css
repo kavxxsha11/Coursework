@@ -273,3 +273,11 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.slot{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: -100px;
+}

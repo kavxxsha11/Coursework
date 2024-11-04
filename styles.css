@@ -137,13 +137,13 @@ body{
     animation-delay: 1.6s;
 }
 
-.btn-box{
+.home-content .btn-box{
     display: flex;
     width: 345px;
     gap: 2em;
 }
 
-.btn-1{
+.home-content .btn-1{
     padding: 15px 28px;
     background-color: #081b29;
     color: #00abf0;
@@ -156,13 +156,13 @@ body{
     cursor: pointer;
 }
 
-.btn-1:hover{
+.home-content .btn-1:hover{
     background-color:#00abf0;
     color: #081b29;
     border: 2px solid #ffffff;
 }
 
-.btn-2{
+.home-content .btn-2{
     padding: 15px 28px;
     background-color: #00abf0;
     color: #081b29;
@@ -175,13 +175,26 @@ body{
     cursor: pointer;
 }
 
-.btn-2:hover{
+.home-content .btn-2:hover{
     background-color: #081b29;
     color: #00abf0;
     border: 2px solid #00abf0;
 }
 
-.home-content .btn-box::before{
+.home-content .btn-1::before{
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:#081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 2s;
+    z-index: 2;
+}
+
+.home-content .btn-2::before{
     content: '';
     position: absolute;
     top:0;

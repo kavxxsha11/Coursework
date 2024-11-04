@@ -339,6 +339,12 @@ body{
     color: #00abf0;
 }
 
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+
 @keyframes showRight {
     100% {
         width: 0;

@@ -33,6 +33,13 @@ body{
     transition: 0.3s ease;
 }
 
+.logo:hover{
+    color: #ffffff;
+    text-shadow:0 0 25px #dee821,
+                0 0 30px #dee821;
+    transform: scale(1.1);
+}
+
 .logo::before{
     content: '';
     position: absolute;

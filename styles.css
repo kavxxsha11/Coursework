@@ -56,9 +56,7 @@ body{
 .navbar a:hover,
 .navbar a.active {
     color:#00abf0 ;
-    box-shadow: 1px 4px 15px #ddff03;
-    transition: 0.5s ease-in-out;
-    background: transparent;
+    border-bottom: 3px solid #00abf0;
 }
 
 .home{

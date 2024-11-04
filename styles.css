@@ -415,9 +415,11 @@ body{
 }
 
 .container{
-    width: 75%;
+    width: 100%;
+    max-width: 75%;
     padding: 10px;
-    margin-right: 50px;
+    margin-right: auto;
+    margin-left: auto;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -602,7 +604,23 @@ body{
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
+    .home-content h1{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
     navbar a.right,
     navbar a{float: none;}
+
+    .about{
+        flex-direction: column;
+    }
+
+    .container{
+        width: 90%;
+        margin-right: 0;
+        margin-left: 0;
+    }
 }

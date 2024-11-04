@@ -156,6 +156,12 @@ body{
     cursor: pointer;
 }
 
+.btn-1:hover{
+    background-color:#00abf0;
+    color: #081b29;
+    border: 2px solid #ffffff;
+}
+
 .home-content .btn-box::before{
     content: '';
     position: absolute;
